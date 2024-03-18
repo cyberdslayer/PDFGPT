@@ -3,45 +3,46 @@ SMARTPDF
 PDFGPT is a tool designed for extracting specific information from PDF documents using natural language processing (NLP) techniques. This tool is useful for various information retrieval tasks, providing a seamless and efficient way to extract targeted data from PDF files.
 Features
 
-1. Efficient Extraction: PDFGPT uses advanced NLP techniques to extract specific information from PDF documents.
-2. Versatile Usage: The extracted information can be used as prompts for further analysis or data processing.
-3. Easy Integration: PDFGPT can be integrated into existing workflows for document processing and information extraction.
+1. Efficient Extraction:
+   PDFGPT uses advanced NLP techniques to extract specific information from PDF documents.
+   
+2. Versatile Usage:
+   The extracted information can be used as prompts for further analysis or data processing.
+   
+3. Easy Integration:
+   PDFGPT can be integrated into existing workflows for document processing and information extraction.
 
 # Installation
 
 To install PDFGPT, follow these steps:
 
 1. Clone the repository:
-    bash
-    git clone https://github.com/your-username/pdfgpt.git
+
+       git clone https://github.com/your-username/pdfgpt.git
 
 3. Install the required dependencies:
 
-bash
-
-    pip install -r requirements.txt
+        pip install -r requirements.txt
 
 # Usage
 
 To use PDFGPT, follow these steps:
 
-  1.  Import the PDFGPT module:
+1.  Import the PDFGPT module:
          
-    import pdfgpt 
-    
-    
+        import pdfgpt  
 
-3. Initialize PDFGPT with the path to your PDF file:
+2.  Initialize PDFGPT with the path to your PDF file:
 
         pdfgpt.initialize('path/to/your/pdf/file.pdf')
    
-4.  Extract information from the PDF:
+3.  Extract information from the PDF:
 
-         extracted_info = pdfgpt.extract_information()
+           extracted_info = pdfgpt.extract_information()
 
-# Use the extracted information for further analysis or processing:
+4. Use the extracted information for further analysis or processing:
 
-    process_extracted_info(extracted_info)
+        process_extracted_info(extracted_info)
 
 # Contributing
 
