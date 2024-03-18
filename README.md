@@ -11,13 +11,11 @@ Installation
 
 To install PDFGPT, follow these steps:
 
-    Clone the repository:
-
+1. Clone the repository:
     bash
+    git clone https://github.com/your-username/pdfgpt.git
 
-git clone https://github.com/your-username/pdfgpt.git
-
-Install the required dependencies:
+3. Install the required dependencies:
 
 bash
 
@@ -30,8 +28,8 @@ To use PDFGPT, follow these steps:
     Import the PDFGPT module:
 
     python
-
-import pdfgpt
+    
+    import pdfgpt
 
 Initialize PDFGPT with the path to your PDF file:
 
