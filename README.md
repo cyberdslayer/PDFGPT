@@ -1,4 +1,4 @@
-PDFGPT
+SMARTPDF
 
 PDFGPT is a tool designed for extracting specific information from PDF documents using natural language processing (NLP) techniques. This tool is useful for various information retrieval tasks, providing a seamless and efficient way to extract targeted data from PDF files.
 Features
@@ -7,7 +7,7 @@ Features
 2. Versatile Usage: The extracted information can be used as prompts for further analysis or data processing.
 3. Easy Integration: PDFGPT can be integrated into existing workflows for document processing and information extraction.
 
-Installation
+# Installation
 
 To install PDFGPT, follow these steps:
 
@@ -21,29 +21,29 @@ bash
 
     pip install -r requirements.txt
 
-Usage
+# Usage
 
 To use PDFGPT, follow these steps:
 
   1.  Import the PDFGPT module:
-
-    python
-    
+         
     import pdfgpt 
     
     
 
-2. Initialize PDFGPT with the path to your PDF file:
-   pdfgpt.initialize('path/to/your/pdf/file.pdf')
-3.     Extract information from the PDF:    extracted_info = pdfgpt.extract_information()
+3. Initialize PDFGPT with the path to your PDF file:
 
-4. Use the extracted information for further analysis or processing:
+        pdfgpt.initialize('path/to/your/pdf/file.pdf')
+   
+4.  Extract information from the PDF:
 
-python
+         extracted_info = pdfgpt.extract_information()
+
+# Use the extracted information for further analysis or processing:
 
     process_extracted_info(extracted_info)
 
-Contributing
+# Contributing
 
 Contributions to PDFGPT are welcome! To contribute, follow these steps:
 
